@@ -1,0 +1,23 @@
+.about{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color:   rgb(19, 19, 19);
+  color: azure;
+}
+.about>img{
+    overflow: hidden;
+}
+
+h2>h3{
+    color: green;
+}
+p {
+    font-size: large;
+  }
+
+.card{
+max-width: 540px;
+border:1px solid white ;
+color: white;
+}  

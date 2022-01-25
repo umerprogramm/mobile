@@ -1,0 +1,55 @@
+.header{
+    background-image: linear-gradient(to left, gray , white);
+    height:45px;
+    
+}
+.header>img{
+    height:35px;
+    padding-left:5px;
+    padding-top:2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header>.menu{
+    background-color: rgb(235, 235, 235); 
+    padding: 10px;  
+    align-items: center;
+    text-align:center;
+    border-top:  1px solid  black ;
+    
+
+}
+.menu>span{
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+    cursor: pointer;
+
+}
+
+.header>span{
+    float: right;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.header>span:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#bt{
+    float: right;
+    margin-left: 700px;
+}
+
+@media only screen and (max-width: 600px){
+	#bt{
+        margin-left: 0px;
+        float: left;
+    }
+}

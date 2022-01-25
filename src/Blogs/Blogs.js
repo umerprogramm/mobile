@@ -1,0 +1,41 @@
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+export default function Blogs() {
+    return (
+        <div className='about'>
+        <h2 style={{paddingBottom : '3px', color:'green'}}>My Blogs</h2>
+
+<div class="card-group">
+  <div class="card mx-3 bg-dark">
+    <img src="https://www.clipartmax.com/png/middle/192-1924637_mobile-flashing.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+    <h5 class="card-title"> how to <span style={{color:"green"}}>Flash </span>Android </h5>
+    <p class="card-text"> Mobile software is used in every phone. Starting from basic there are different kinds of mobile like classic mobile phone, feature mobile phone, and android.  </p>
+    <button type="button" class="btn btn-primary">lrean more</button>
+
+    </div>
+  </div>
+  <div class="card mx-3 bg-dark">
+    <img src="https://www.techblazing.com/wp-content/uploads/2021/08/how-to-bypass-android-lock-Screen.jpg" class="card-img-top" alt="..."/>
+    <div class="card-body">
+    <h5 class="card-title"> how to Break <span style={{color:"green"}}>Pattern/Locks  </span>Android </h5>
+    <p class="card-text">Pattern locks allow you to prevent others from accessing your content. The problem occurs when you forget your pattern lock. This detailed guide will discuss cracking a pattern lock on an Android phone using iToolab UnlockGo for Android </p>
+    <button type="button" class="btn btn-primary">lrean more</button>
+
+    </div>
+  </div>
+  <div class="card bg-dark mx-3">
+    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="..."/>
+    <div class="card-body">
+    <h5 class="card-title"> how to  Unlock <span style={{color:"green"}}>Regional Lock in </span>Android </h5>
+    <p class="card-text">What is regional lock? Region Lock ensures that you can only use a smartphone in a country the device is made for. In this way, Samsung prevents their devices from being bought up in one market and sold again in another market </p>
+    <button type="button" class="btn btn-primary">lrean more</button>
+
+    </div>
+  </div>
+</div>
+</div>
+    )
+}
